@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Image Swap</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <main>
+                <h2>Spotlight</h2>
+                <img id="imageMain" src="../images/yellowPhone.jpg" alt="yellowPhone" width="650">
+            </main>
+            <aside >
+                <img id="imageOne"  onclick="swapImage(this.id)" src="./images/cherry.jpg" alt="Cherry">
+                <img id="imageTwo" onclick="swapImage(this.id)" src="./images/coneBlue.jpg" alt="Ice cream cone">
+                <img id="imageThree" onclick="swapImage(this.id)" src="./images/cactus.jpg" alt="Cactus">
+                <img id="imageFour" onclick="swapImage(this.id)" src="./images/yellowPhone.jpg" alt="yellowPhone">
+            </aside>
+        </div>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+img {
+    max-width: 250px;
+    max-height: 250px;
+    cursor: pointer;
+}
+
+h2 {
+    text-decoration: underline;
+    color: lightcoral;
+}
+
+.container {
+    box-shadow: 5px 5px 15px 7px bisque;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+main {
+    margin: 25px auto;
+    text-align: center;
+}
+
+main img {
+    cursor:default;
+}
+
+aside {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
